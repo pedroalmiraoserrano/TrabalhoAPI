@@ -17,6 +17,7 @@ class CrudController extends Controller
     {
         return response()->json([], 200);
     }
+    
     public function show(Task $task)
     {
         return response()->json($task);
